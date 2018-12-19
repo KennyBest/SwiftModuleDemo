@@ -1,0 +1,6 @@
+framework module NewPrivatePod {
+  umbrella header "NewPrivatePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

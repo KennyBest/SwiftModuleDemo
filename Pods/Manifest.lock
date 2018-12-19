@@ -1,0 +1,24 @@
+PODS:
+  - CommunityPrivatePod (0.0.4):
+    - MediatorPrivatePod (~> 0.0.2)
+  - MediatorPrivatePod (0.0.2)
+  - NewPrivatePod (0.0.6)
+
+DEPENDENCIES:
+  - CommunityPrivatePod
+  - NewPrivatePod
+
+SPEC REPOS:
+  https://github.com/KennyBest/KYSpecRepo.git:
+    - CommunityPrivatePod
+    - MediatorPrivatePod
+    - NewPrivatePod
+
+SPEC CHECKSUMS:
+  CommunityPrivatePod: fa33407814b15ae94faf076086a503c21674ca63
+  MediatorPrivatePod: 114f6cbfa1b6af9a24386910c61533f864f321f3
+  NewPrivatePod: a36aef9b7fd97869222bccf8e12526beefe978d9
+
+PODFILE CHECKSUM: f2c971c1966bfcaf4e660a818d0c965449ead235
+
+COCOAPODS: 1.5.3
